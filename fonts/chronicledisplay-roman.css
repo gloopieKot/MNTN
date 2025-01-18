@@ -1,0 +1,9 @@
+@font-face {
+	font-family: 'ChronicleDisplay-Roman';
+	src: url('../fonts/chronicledisplay-roman.eot'); /* IE 9 Compatibility Mode */
+	src: url('../fonts/chronicledisplay-roman.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('../fonts/chronicledisplay-roman.woff2') format('woff2'), /* Super Modern Browsers */
+		url('../fonts/chronicledisplay-roman.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('../fonts/chronicledisplay-roman.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('../fonts/chronicledisplay-roman.svg#chronicledisplay-roman') format('svg'); /* Chrome < 4, Legacy iOS */
+}
