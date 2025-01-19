@@ -14,11 +14,14 @@
     }
 
 body {
-    /*width: 1920px;*/
-    background-color: #0B1D26;
+    background: 
+    url("../img/BG-Content.png") no-repeat 0% 32%,
+    url("../img/vG.png") no-repeat 0% 23%,
+    url("../img/MG.png") no-repeat 0% 17%,
+    url("../img/HG.png") no-repeat 0% 0%,  
+   #0B1D26;
 }
 
-/*** Header ***/
 header {
     display: flex;
     flex-direction: row;
@@ -49,15 +52,13 @@ nav {
     padding: 2px 0 1px 0;
 }
 
-/*** HG ***/
 .HG {
     display: flex;
     flex-direction: row;
     gap: 1659px;
-    padding: 326px 80px 547px 80px;
+    padding: 326px 80px 0 80px;
 }
 
-/*** Social ***/
 .social {
     display: flex;
     flex-direction: column;
@@ -77,8 +78,6 @@ nav {
     font-weight: bold;
 }
 
-
-/*** Slider ***/
 .slider {
     display: flex;
     /*padding: 326px 80px 0 1763px;*/
@@ -106,61 +105,14 @@ nav {
     
 }
 
-/*** Content ***/
 .content {
-
-    margin: 1440px 229px 120px 229px;
-    width: 1462px;
-    height: 3040px;
-}
-
-.content-01 {
-    display: flex;
-    flex-direction: row;
-    width: 1462px;
-    height: 720px;
-}
-
-.content-01-text {
     display: flex;
     flex-direction: column;
-    gap: 27px;
-    width: 632px;
-    height: 439px;
-    margin: 141px 114px 140px 150px;
-    color: #fff;
-    font-family: 'Gilroy Thin'; 
-    font-size: 18px;
+    gap: 200px;
+    margin: 874px 229px 120px 229px;
+    width: 1462px;
+    height: 2560px;
 }
-
-.Tagline {
-    display: flex;
-    flex-direction: row;
-    margin-right: 364px;
-    width: 278px;
-    height: 22px;
-}
-
-.Tagline > div {
-    letter-spacing: 6px;
-    text-transform: uppercase;
-    color: #FBD784; 
-    font-family: 'Gilroy Thin'; 
-    font-size: 18px;
-    font-weight: bolder;
-}
-
-.Tagline > img {
-    width: 72px;
-    margin: 10px 24px 10px 0;
-}
-
-.content-01-text-title {
-    color: #fff; 
-    font-family: 'ChronicleDisplay-Roman'; 
-    font-size: 64px;
-}
-
 
 .More {
     display: flex;
@@ -176,7 +128,236 @@ nav {
     padding: 3px 0 3px 0;
 }
 
+.content-01 {
+    display: flex;
+    flex-direction: row;
+    width: 1462px;
+    height: 720px;
+    background-image: url("../img/Equipment-01.png");
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 11%;
+}
+
+.content-01-text {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 632px;
+    height: 439px;
+    margin: 141px 114px 140px 150px;
+    color: #fff;
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+}
+
+.content-01-tagline {
+    display: flex;
+    flex-direction: row;
+    margin-right: 364px;
+    width: 278px;
+    height: 22px;
+}
+
+.content-01-tagline > div {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784; 
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.content-01-tagline > img {
+    width: 72px;
+    margin: 10px 24px 10px 0;
+}
+
+.content-01-text-title {
+    color: #fff; 
+    font-family: 'ChronicleDisplay-Roman'; 
+    font-size: 64px;
+}
+
 .content-01 > img {
     width: 566px;
     height: 720px;
+}
+
+.content-02 {
+    display: flex;
+    flex-direction: row;
+    width: 1462px;
+    height: 720px;
+    background-image: url("../img/Equipment-02.png");
+    background-repeat: no-repeat;
+    background-position-x: 56%;
+    background-position-y: 13%;
+}
+
+.content-02-text {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 632px;
+    height: 439px;
+    margin: 141px 0 140px 264px;
+    color: #fff;
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+}
+
+.content-02-tagline {
+    display: flex;
+    flex-direction: row;
+    margin-right: 364px;
+    width: 358px;
+    height: 22px;
+}
+
+.content-02-tagline > div {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784; 
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.content-02-tagline > img {
+    width: 72px;
+    margin: 10px 24px 10px 0;
+}
+
+.content-02-text-title {
+    color: #fff; 
+    font-family: 'ChronicleDisplay-Roman'; 
+    font-size: 64px;
+}
+
+.content-02 > img {
+    width: 566px;
+    height: 720px;
+}
+
+.content-03 {
+    display: flex;
+    flex-direction: row;
+    width: 1462px;
+    height: 720px;
+    background-image: url("../img/Equipment-03.png");
+    background-repeat: no-repeat;
+    background-position-x: 0%;
+    background-position-y: 17%;
+}
+
+.content-03-text {
+    display: flex;
+    flex-direction: column;
+    gap: 27px;
+    width: 632px;
+    height: 439px;
+    margin: 141px 114px 140px 150px;
+    color: #fff;
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+}
+
+.content-03-tagline {
+    display: flex;
+    flex-direction: row;
+    margin-right: 364px;
+    width: 460px;
+    height: 22px;
+}
+
+.content-03-tagline > div {
+    letter-spacing: 6px;
+    text-transform: uppercase;
+    color: #FBD784; 
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.content-03-tagline > img {
+    width: 72px;
+    margin: 10px 24px 10px 0;
+}
+
+.content-03-text-title {
+    color: #fff; 
+    font-family: 'ChronicleDisplay-Roman'; 
+    font-size: 64px;
+}
+
+.content-03 > img {
+    width: 566px;
+    height: 720px;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 200px 229px 120px 229px;
+    width: 1462px;
+    height: 280px;
+}
+
+.footer-logo > img {
+    margin-bottom: 24px;
+    width: 108px;
+    height: 38px;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    gap: 212px;
+}
+
+.footer-logo{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-text {
+    margin-bottom: 122px;
+    width: 303px;
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #fff;
+}
+
+.copyright {
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
+    opacity: 50%;
+}
+
+.footer-links-blog, .footer-links-mntn {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+
+.links-title {
+    font-family: 'Gilroy Thin'; 
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 32px;
+    color: #FBD784;
+}
+
+.footer-links-blog, .footer-links-mntn {
+    font-family: 'Gilroy Thin'; 
+    font-size: 18px;
+    line-height: 32px;
+    color: #fff;
 }
